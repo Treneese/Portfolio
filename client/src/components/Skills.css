@@ -1,0 +1,40 @@
+/* src/components/Skills.css */
+
+.skills {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #323131;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .skills h2 {
+    color: #fffb00;
+    margin: 15px 0;
+  }
+  
+  .skills ul, .phase ul  {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li , .phase li {
+    background-color: #5a5a5b;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
