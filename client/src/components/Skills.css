@@ -25,16 +25,60 @@
   }
   
   .skills li , .phase li {
-    background-color: #5a5a5b;
+    background-color: #515151;
     margin: 5px 0;
     padding: 10px;
-    border-radius: 4px;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
   }
   
-  .card-container {
+  /* .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px 0;
+  } */
+
+  /* .phase {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
   }
+  
+  .phase li {
+    background:  #474646;; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 8px; 
+    text-align: center; 
+    flex: 1 1 auto; 
+    min-width: 150px;
+  } */
+  
+  .technical-skills ul,
+  .soft-skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .technical-skills li,
+  .soft-skills li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
   

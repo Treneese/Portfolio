@@ -21,6 +21,7 @@ function ProjectList ()  {
     return (
         <div>
             <h2>Projects</h2>
+            <p>"Nothing will work unless you do."- Maya Angelou</p>
             <div className="card-container">
                 {projects.map(project => (
                     <ProjectCard key={project.id} project={project} />

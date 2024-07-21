@@ -33,7 +33,7 @@ useEffect(() => {
   return (
     <div className="skills">
       <h1>Skills</h1>
-      
+      <p>"You can’t use up creativity. The more you use, the more you have."- Maya Angelou</p>
       <div className="technical-skills">
         <h2>Technical Skills</h2>
         <ul>

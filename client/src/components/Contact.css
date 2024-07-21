@@ -1,50 +1,62 @@
-/* src/components/ContactList.css */
-
 .contact-list {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 500px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
-  }
-  
-  .contact-list h2 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .contact-list h3 {
-    color: #555;
-    margin: 10px 0;
-  }
-  
-  .contact-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .contact-list li {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #eee;
-    border-radius: 4px;
-  }
-  
-  .contact-list a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  .contact-list a:hover {
-    text-decoration: underline;
-  }
-  
-  .contact-list p {
-    color: #555;
-    margin: 5px 0;
-  }
-  
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+
+}
+
+.contact-list h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-list h3 {
+  color: #555;
+  margin: 10px 0;
+}
+
+.contact-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.icon-button {
+  background: none;
+  border-radius: 6px;
+  border: white solid transparent;
+  color: #e1e3e4;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 8px;
+  padding: 8px 12px;
+  font-weight: 400;
+}
+.icon-button:hover {
+  color: #ffee00;
+  border-color: #ffee00;
+  box-shadow: 0 0 10px rgba(198, 213, 37, 0.5);
+}
+a {
+  color: #fff700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact-list p {
+  color: #555;
+  margin: 5px 0;
+}

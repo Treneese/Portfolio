@@ -6,6 +6,7 @@ import './EducationCard.css';
 const EducationCard = ({ education }) => {
     return (
         <div className="card">
+            <img src={education.image} alt={education.name} />
             <h3>{education.name}</h3>
             <p>{education.field}</p>
             <p>{education.degree_certification_type}</p>

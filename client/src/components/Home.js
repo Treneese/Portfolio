@@ -8,8 +8,10 @@ const Home = () => (
             <h1>Treneese Johnson</h1>
             <h1>And I am a </h1>
             <p>Full-Slack Software Developer</p>
+            <p>"Success is liking yourself, liking what you do, and liking how you do it.”- Maya Angelou</p>
             <img src='/profile.png'  alt='Profile' className="profile-image" />
-  </div>
+         
+ </div>
 );
 
 export default Home;
