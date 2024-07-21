@@ -10,54 +10,36 @@ from models import Project, Education, Blog, Contact
 projects = [
     Project(
         title='Indie Films',
-        description='This was my first app, it is a solo Javascript app based on exploring Indie Films.',
+        description='A film app for discovering independent films, reviewing trailers, and accessing detailed information.',
         technologies='JavaScript, HTML, CSS, Json',
-        features='Tongle side-bar, Functional video play',
-        challenges='Getting the vedeos to show up and play on site.',
         demo='https://www.youtube.com/watch?v=1qlV-3ZA9WI&t=24s',
         github='https://github.com/Treneese/IndieFilms.git',
         image='/Indie_Films.png'
     ),
     Project(
         title='My Culture',
-        description='This is a solo app and a React app based on Event finding.',
+        description='An event app for discovering, creating, and communicating about events.',
         technologies='React, CSS, Json',
-        features='Chat, Eventcards, Event Form, Catigories',
-        challenges='Getting the catigoriest to only pull specific card.',
         demo='https://www.youtube.com/watch?v=WbR-eHvrAOc',
         github='https://github.com/Treneese/MyCulture.git',
         image='/My_Culture.png'
     ),
     Project(
         title='YouFlix',
-        description='This was a group project with myself and 3 other classmates. It is a Full-Slack project, React frontend and Flask Backend. It is a app that shows youtube shows and skits.',
-        technologies='React, Flask, CSS, ',
-        features='Functional video play, Self click Showcards, Catigories, Autherization.',
-        challenges='Github merging for a team of 4.',
+        description='An app inspired by Netflix that streams YouTube skits.',
+        technologies='React, Flask, CSS, Bcrypt ',
         demo='https://youtu.be/jxbZRaM9Klw?si=AEBwoR27SsG3Ms_z',
         github='https://github.com/Treneese/YouFlix.git',
         image='/YouFlix.png'
     ),
     Project(
         title='GreenBook - Bon Voyage',
-        description='This is a solo app, Full-slack and it is an app that helps you create a safer tavel ass a community.',
+        description='A Green Book-inspired app for safe travel, featuring navigation and user reviews.',
         technologies='React, Flask, CSS, Mapbox, Bcrypt',
-        features='Review community chat and Map navigation.',
-        challenges='Completing Authentification and my map.',
         demo='https://youtu.be/nv83-ZK0gog?si=qpi0phUKFLrwuT7D',
         github='https://github.com/Treneese/MyGreenBook.git',
         image='/Bon_Voyage.png'
     ),
-    # Project(
-    #     title='Bank',
-    #     description='A project done with two other classmates, this is a backend banking app.',
-    #     technologies='Python, Sqlite, Bcrypt',
-    #     features='hashed SSN',
-    #     challenges='Communication',
-    #     demo='http://example.com/demo2',
-    #     github='http://github.com/example2',
-    #     image='http://example.com/image2.jpg'
-    # ),
 ]
 
 education= [
@@ -68,6 +50,7 @@ education= [
         degree_certification_type='Bootcamp Certificate',
         start_date='2024-04-01',
         end_date='2024-07-12',
+        image='https://upload.wikimedia.org/wikipedia/commons/6/61/FS_wiki.png',
         school_link='https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=12728169833&utm_content=127574238224&utm_term=flatiron%20online%20bootcamp&uqaid=513747011494&CjwKCAjwy8i0BhAkEiwAdFaeGFPRZHQ_lPyUdHs6g8ZRlI4yzFj3Z9SYEKIwgg7cwU7CEPNvEuY7FxoCF74QAvD_BwE&gad_source=1&gclid=CjwKCAjwy8i0BhAkEiwAdFaeGFPRZHQ_lPyUdHs6g8ZRlI4yzFj3Z9SYEKIwgg7cwU7CEPNvEuY7FxoCF74QAvD_BwE'
     ),
      Education(
@@ -76,6 +59,7 @@ education= [
         degree_certification_type='B.A.',
         start_date='2015-09-11',
         end_date='2021-06-13',
+        image='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLZB7UFOaBiLPlvT2QnjVhLgXNUrW7d-8bfg&s',
         school_link='https://www.cau.edu/'
     ),
 ]

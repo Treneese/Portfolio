@@ -12,8 +12,6 @@ class Project(db.Model, SerializerMixin):
     title = db.Column(db.String, nullable=False)
     description = db.Column(db.String)
     technologies = db.Column(db.String)
-    features = db.Column(db.String)
-    challenges = db.Column(db.String)
     demo = db.Column(db.String)
     github = db.Column(db.String)
     image = db.Column(db.String)
@@ -28,18 +26,20 @@ class Education(db.Model, SerializerMixin):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, nullable=False)
+    image = db.Column(db.String)
     field = db.Column(db.String)
     degree_certification_type = db.Column(db.String)
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
     school_link = db.Column(db.String)
 
-    def __init__(self, name, field, degree_certification_type, start_date, end_date, school_link):
+    def __init__(self, name, field, degree_certification_type, start_date, end_date, image, school_link):
         self.name = name
         self.field = field
         self.degree_certification_type = degree_certification_type
         self.start_date = datetime.strptime(start_date, '%Y-%m-%d').date()
         self.end_date = datetime.strptime(end_date, '%Y-%m-%d').date()
+        self.image = image
         self.school_link = school_link
 
     def __repr__(self):
