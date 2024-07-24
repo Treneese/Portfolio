@@ -36,7 +36,7 @@ projects = [
         title='GreenBook - Bon Voyage',
         description='A Green Book-inspired app for safe travel, featuring navigation and user reviews.',
         technologies='React, Flask, CSS, Mapbox, Bcrypt',
-        demo='https://youtu.be/nv83-ZK0gog?si=qpi0phUKFLrwuT7D',
+        demo='https://www.youtube.com/watch?v=rvX9mA-9fps',
         github='https://github.com/Treneese/MyGreenBook.git',
         image='/Bon_Voyage.png'
     ),
