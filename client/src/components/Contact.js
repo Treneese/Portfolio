@@ -1,7 +1,7 @@
 // src/components/ContactList.js
 
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../axiosConfig'; 
 import './Contact.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -28,27 +28,22 @@ const ContactList = () => {
             <ul>
             {contacts.map(contact => (
                 <li key={contact.id}>
-                    <p>
                         <button className="icon-button" onClick={() => window.location.href = `mailto:${contact.email}`}>
                             <i className="fas fa-envelope"></i>
                         </button>
-                    </p>
-                    <p>
+                   
                         <button className="icon-button" onClick={() => window.open(contact.linkedin, '_blank', 'noopener,noreferrer')}>
                             <i className="fab fa-linkedin"></i>
                         </button>
-                    </p>
-                    <p>
+                   
                         <button className="icon-button" onClick={() => window.open(contact.github, '_blank', 'noopener,noreferrer')}>
                             <i className="fab fa-github"></i>
                         </button>
-                    </p>
-                    <p>
+                   
                         <button className="icon-button" onClick={() => window.open(contact.blog, '_blank', 'noopener,noreferrer')}>
                             <i className="fas fa-blog"></i>
                         </button>
-                    </p>
-                </li>
+                        </li>
             ))}
         </ul>
             <p>Thank You for your time!</p>

@@ -68,7 +68,7 @@
   
   .technical-skills li,
   .soft-skills li {
-    background: #f9f9f9;
+    background: #4f4e4e;
     border: 1px solid #ddd;
     border-radius: 4px;
     text-align: center;
@@ -80,5 +80,3 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 15px;
   }
-  
-  

@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import EducationCard from './EducationCard';
-import axios from 'axios';
+// import axios from 'axios';
+import axios from '../axiosConfig'; 
 import './Skills.css';
 
 function Skills() {

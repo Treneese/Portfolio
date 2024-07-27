@@ -1,9 +1,10 @@
 // src/components/ProjectList.js
 
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../axiosConfig'; 
 import ProjectCard from './ProjectCard';
 import './Projects.css';
+import './App.css';
 
 function ProjectList ()  {
     const [projects, setProjects] = useState([]);

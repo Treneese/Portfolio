@@ -7,7 +7,6 @@
   max-width: 500px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
-
 }
 
 .contact-list h2 {
@@ -26,27 +25,30 @@
 }
 
 .contact-list li {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Space between icons */
   margin-bottom: 10px;
 }
 
 .icon-button {
-  background: none;
-  border-radius: 6px;
+  background: rgb(102, 101, 101);
+  border-radius: 25px;
   border: white solid transparent;
   color: #e1e3e4;
   cursor: pointer;
   font-size: 20px;
-  margin-right: 8px;
-  padding: 8px 12px;
+  padding: 15px;
   font-weight: 400;
+  margin-right: 28px;
 }
+
 .icon-button:hover {
   color: #ffee00;
   border-color: #ffee00;
   box-shadow: 0 0 10px rgba(198, 213, 37, 0.5);
 }
+
 a {
   color: #fff700;
   text-decoration: none;
@@ -60,3 +62,23 @@ a:hover {
   color: #555;
   margin: 5px 0;
 }
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .contact-list {
+    padding: 15px;
+  }
+
+  .contact-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .icon-button {
+    margin-right: 10px;
+    margin-bottom: 8px;
+    padding: 15px
+  }
+}
+
+

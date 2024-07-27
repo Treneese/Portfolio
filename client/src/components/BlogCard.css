@@ -1,7 +1,7 @@
 /* src/components/BlogCard.css */
 
 .card {
-    background-color: #fff;
+    background-color: #727272;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: 20px auto;
@@ -12,12 +12,12 @@
   }
   
   .card h3 {
-    color: #333;
+    color: #fcfc02;
     margin-top: 0;
   }
   
   .card p {
-    color: #555;
+    color: #fcfc02;
     line-height: 1.6;
   }
   
@@ -31,7 +31,7 @@
   .card a {
     display: inline-block;
     margin-top: 10px;
-    color: #007BFF;
+    color: #d4a0ff;
     text-decoration: none;
     font-weight: bold;
   }

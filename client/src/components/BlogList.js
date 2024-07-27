@@ -1,7 +1,7 @@
 // src/components/BlogList.js
 
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../axiosConfig'; 
 import BlogCard from './BlogCard';
 import './Skills.css';
 

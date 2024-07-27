@@ -1,6 +1,3 @@
-// ntroduction/Overview:
-// * About Me Section: Write a brief introduction about yourself, including your background, what motivated you to pursue software engineering, and what areas you're passionate about.
-// * Professional Summary: Highlight your key skills and what you bring to the table as a software engineer.
 
 import React from 'react';
 import './About.css';

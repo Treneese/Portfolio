@@ -1,7 +1,7 @@
 /* src/components/EducationCard.css */
 
 .card {
-  background-color: #fff;
+  background-color: #4b4b4b;
   border: 1px solid #ddd;
   border-radius: 4px;
   margin: 20px auto;
@@ -20,12 +20,12 @@
 }
 
 .card h3 {
-  color: #333;
+  color: #ffee05;
   margin-top: 0;
 }
 
 .card p {
-  color: #555;
+  color: #ffee05;
   line-height: 1.6;
   margin: 5px 0;
 }
@@ -33,7 +33,7 @@
 .card a {
   display: inline-block;
   margin-top: 10px;
-  color: #007BFF;
+  color: #8800ff;
   text-decoration: none;
 }
 

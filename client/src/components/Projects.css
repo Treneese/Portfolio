@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
+    background-color: #333;
   }
   
   .card-container h2 {
