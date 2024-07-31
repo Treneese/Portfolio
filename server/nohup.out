@@ -1,0 +1,20 @@
+[2024-07-27 18:22:06 -0400] [17358] [INFO] Starting gunicorn 22.0.0
+[2024-07-27 18:22:06 -0400] [17358] [INFO] Listening at: http://0.0.0.0:8080 (17358)
+[2024-07-27 18:22:06 -0400] [17358] [INFO] Using worker: sync
+[2024-07-27 18:22:06 -0400] [17385] [INFO] Booting worker with pid: 17385
+[2024-07-27 18:24:39 -0400] [17454] [INFO] Starting gunicorn 22.0.0
+[2024-07-27 18:24:39 -0400] [17454] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2024-07-27 18:24:39 -0400] [17454] [ERROR] Retrying in 1 second.
+[2024-07-27 18:24:40 -0400] [17454] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2024-07-27 18:24:40 -0400] [17454] [ERROR] Retrying in 1 second.
+[2024-07-27 18:24:41 -0400] [17454] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2024-07-27 18:24:41 -0400] [17454] [ERROR] Retrying in 1 second.
+[2024-07-27 18:24:42 -0400] [17454] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2024-07-27 18:24:42 -0400] [17454] [ERROR] Retrying in 1 second.
+[2024-07-27 18:24:43 -0400] [17454] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2024-07-27 18:24:43 -0400] [17454] [ERROR] Retrying in 1 second.
+[2024-07-27 18:24:44 -0400] [17454] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2024-07-27 18:29:10 -0400] [17511] [INFO] Starting gunicorn 22.0.0
+[2024-07-27 18:29:10 -0400] [17511] [INFO] Listening at: http://0.0.0.0:8081 (17511)
+[2024-07-27 18:29:10 -0400] [17511] [INFO] Using worker: sync
+[2024-07-27 18:29:10 -0400] [17538] [INFO] Booting worker with pid: 17538

@@ -2,15 +2,15 @@
 
 import React, { useState, useEffect } from 'react';
 import EducationCard from './EducationCard';
-// import axios from 'axios';
-import axios from '../axiosConfig'; 
+import axios from 'axios';
+// import axios from '../axiosConfig'; 
 import './Skills.css';
 
 function Skills() {
   const [educations, setEducations] = useState([]);
 
   useEffect(() => {
-    axios.get('/api/education')
+    axios.get('//3.14.145.75:8080/api/education')
         .then(response => {
           setEducations(response.data);
         })

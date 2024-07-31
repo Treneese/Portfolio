@@ -1,7 +1,7 @@
 // src/components/Home.js
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import axios from '../axiosConfig'; 
+import axios from 'axios';
 import './Contact.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -11,7 +11,7 @@ const Home = () => {
   const [contacts, setContacts] = useState([]);
 
   useEffect(() => {
-      axios.get('/api/contacts')
+      axios.get('//3.14.145.75:8080/api/contacts')
           .then(response => {
               setContacts(response.data);
           })

@@ -1,7 +1,7 @@
 // src/components/ProjectList.js
 
 import React, { useState, useEffect } from 'react';
-import axios from '../axiosConfig'; 
+import axios from 'axios';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
 import './App.css';
@@ -10,7 +10,7 @@ function ProjectList ()  {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        axios.get('/api/projects')
+        axios.get('//3.14.145.75:8080/api/projects')
             .then(response => {
                 setProjects(response.data);
             })

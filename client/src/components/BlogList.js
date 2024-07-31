@@ -1,7 +1,7 @@
 // src/components/BlogList.js
 
 import React, { useState, useEffect } from 'react';
-import axios from '../axiosConfig'; 
+import axios from 'axios';
 import BlogCard from './BlogCard';
 import './Skills.css';
 
@@ -10,7 +10,7 @@ function BlogList() {
 
 
 useEffect(() => {
-  axios.get('/api/blogs')
+  axios.get('//3.14.145.75:8080/api/blogs')
       .then(response => {
         setBlogs(response.data);
       })
