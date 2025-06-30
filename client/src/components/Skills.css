@@ -72,8 +72,12 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     text-align: center;
-    padding: 10px;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #f0f0f0;
   }
+  
   
   .card-container {
     display: grid;
