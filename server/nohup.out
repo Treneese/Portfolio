@@ -18,3 +18,22 @@
 [2024-07-27 18:29:10 -0400] [17511] [INFO] Listening at: http://0.0.0.0:8081 (17511)
 [2024-07-27 18:29:10 -0400] [17511] [INFO] Using worker: sync
 [2024-07-27 18:29:10 -0400] [17538] [INFO] Booting worker with pid: 17538
+[2024-08-04 11:35:38 -0400] [17358] [ERROR] Worker (pid:17385) was sent SIGHUP!
+[2024-08-04 11:35:38 -0400] [17511] [ERROR] Worker (pid:17538) was sent SIGHUP!
+[2024-08-04 11:35:38 -0400] [17358] [INFO] Handling signal: hup
+[2024-08-04 11:35:38 -0400] [17358] [INFO] Hang up: Master
+[2024-08-04 11:35:38 -0400] [70430] [INFO] Booting worker with pid: 70430
+[2024-08-04 11:35:38 -0400] [17511] [INFO] Handling signal: hup
+[2024-08-04 11:35:38 -0400] [17511] [INFO] Hang up: Master
+[2024-08-04 11:35:38 -0400] [70437] [INFO] Booting worker with pid: 70437
+[2024-08-04 11:35:38 -0400] [70436] [INFO] Booting worker with pid: 70436
+[2024-08-04 11:35:38 -0400] [70439] [INFO] Booting worker with pid: 70439
+[2024-08-04 11:35:40 -0400] [70430] [INFO] Worker exiting (pid: 70430)
+[2024-08-04 11:35:40 -0400] [70436] [INFO] Worker exiting (pid: 70436)
+[2024-08-04 12:38:52 -0400] [70439] [INFO] Worker exiting (pid: 70439)
+[2024-08-04 12:38:52 -0400] [17358] [INFO] Handling signal: term
+[2024-08-04 12:38:52 -0400] [17511] [INFO] Handling signal: term
+[2024-08-04 12:38:52 -0400] [70437] [INFO] Worker exiting (pid: 70437)
+[2024-08-04 12:38:52 -0400] [17511] [ERROR] Worker (pid:70439) was sent SIGTERM!
+[2024-08-04 12:38:52 -0400] [17511] [INFO] Shutting down: Master
+[2024-08-04 12:38:52 -0400] [17358] [INFO] Shutting down: Master

@@ -10,17 +10,17 @@ from models import Project, Education, Blog, Contact
 projects = [
     Project(
         title='Indie Films',
-        description='A film app for discovering independent films, reviewing trailers, and accessing detailed information.',
+        description='An app for discovering independent films, reviewing trailers, and accessing detailed information.',
         technologies='JavaScript, HTML, CSS, Json',
-        demo='https://www.youtube.com/watch?v=1qlV-3ZA9WI&t=24s',
+        demo='https://youtu.be/nryk9AnVchg',
         github='https://github.com/Treneese/IndieFilms.git',
         image='/Indie_Films.png'
     ),
     Project(
         title='My Culture',
-        description='An event app for discovering, creating, and communicating about events.',
+        description='An app for discovering, creating, and communicating about events.',
         technologies='React, CSS, Json',
-        demo='https://www.youtube.com/watch?v=WbR-eHvrAOc',
+        demo='https://youtu.be/_xewZXxeWjM',
         github='https://github.com/Treneese/MyCulture.git',
         image='/My_Culture.png'
     ),
@@ -28,7 +28,7 @@ projects = [
         title='YouFlix',
         description='An app inspired by Netflix that streams YouTube skits.',
         technologies='React, Flask, CSS, Bcrypt ',
-        demo='https://youtu.be/jxbZRaM9Klw?si=AEBwoR27SsG3Ms_z',
+        demo='https://youtu.be/dgMdkB5v5uU',
         github='https://github.com/Treneese/YouFlix.git',
         image='/YouFlix.png'
     ),
@@ -36,10 +36,46 @@ projects = [
         title='GreenBook - Bon Voyage',
         description='A Green Book-inspired app for safe travel, featuring navigation and user reviews.',
         technologies='React, Flask, CSS, Mapbox, Bcrypt',
-        demo='https://www.youtube.com/watch?v=rvX9mA-9fps',
+        demo='https://youtu.be/GmhkQZP-QkY',
         github='https://github.com/Treneese/MyGreenBook.git',
         image='/Bon_Voyage.png'
     ),
+    Project(
+    title='DOKO Battlefield Website',
+    description='The official site for DOKO Battlefield — an immersive combat sports experience blending physical activity, story, and tech.',
+    technologies='React, Flask, CSS, Railway, Vercel',
+    demo='https://dokobattlefield.com',
+    github='https://github.com/DOKO-Battlefield/DOKO_Battlefield',
+    image='/DOKO_Website.png'
+),
+
+Project(
+    title='DOKO VR Walkthrough',
+    description='A cinematic 3D walkthrough built in Unity to preview the DOKO Battlefield experience and spatial design.',
+    technologies='Unity, C#, Blender, WebGL',
+    demo='https://www.youtube.com/watch?v=Fy1lZMQ7FTc&t=4s',  
+    github='https://github.com/DOKO-Battlefield/Naqi-Walkthrough', 
+    image='/DOKO_Walkthrough.png'
+),
+
+Project(
+    title='DOKO Smart Necklace Simulation',
+    description='A wearable tech simulation using ESP32, RGB LEDs, Flask, and QR scanning to power DOKO’s smart check-in system.',
+    technologies='ESP32, Python, Flask, SocketIO, Wokwi',
+    demo='https://wokwi.com/projects/425958698147193857',
+    github='https://github.com/DOKO-Battlefield/DOKO_Battlefield', 
+    image='/DOKO_Necklace.png'
+),
+Project(
+    title='DOKO Check-In Kiosk',
+    description='A custom tablet kiosk for user check-in at DOKO Battlefield, built with React and Flask.',
+    technologies='React, Flask, CSS, Vercel',
+    demo='N/A', 
+    github='https://github.com/DOKO-Battlefield/DOKO_Battlefield', 
+    image='/DOKO_Kiosk.png'
+),
+
+
 ]
 
 education= [
@@ -62,6 +98,15 @@ education= [
         image='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLZB7UFOaBiLPlvT2QnjVhLgXNUrW7d-8bfg&s',
         school_link='https://www.cau.edu/'
     ),
+    Education(
+    name='Automation Workz',
+    field='Cybersecurity',
+    degree_certification_type='Certificate (In Progress)',
+    start_date='2025-02-01',
+    end_date='2025-11-01',  
+    image='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxKifpaFyJa46ZVidiWcxURCTVJZp9VP-7A&s',
+    school_link='https://autoworkz.org/'
+),
 ]
 
 
@@ -90,12 +135,13 @@ blogs = [
         image='https://www.sovereignconsult.com/wp-content/uploads/2020/02/fullstack-copy-copy.jpg',
         link='https://medium.com/@treneesejohnson9012/to-becoming-a-full-stack-software-engineer-4178a1406dcb'
     ),
-       Blog(
-        title='What Makes Me Want to Be a Software Engineer',
-        description='My desire to be a software engineer stems from a combination of passion.',
-        image='https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/positive-work-enviornment-hero.jpg?d=500x500&f=inside',
-        link='https://medium.com/@treneesejohnson9012/what-makes-me-want-to-be-a-software-engineer-5bd746e6715e'
-    ),
+    Blog(
+    title='Redefining Success: When Purpose Becomes the Real Goal',
+    description='A personal reflection on letting go of the world’s definition of success and choosing to build a life led by divine purpose.',
+    image='https://miro.medium.com/v2/resize:fit:720/format:webp/1*Vxs6N0_paiFJtK9BCpfkHA.png',
+    link='https://medium.com/@treneesejohnson9012/redefining-success-when-purpose-becomes-the-real-goal-9fe3a412ccd6'
+),
+
 ]
 
 contacts = [
