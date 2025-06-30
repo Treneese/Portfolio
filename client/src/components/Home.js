@@ -11,7 +11,7 @@ const Home = () => {
   const [contacts, setContacts] = useState([]);
 
   useEffect(() => {
-      axios.get('//3.14.145.75:8080/api/contacts')
+      axios.get('https://treneese-engineer-portfolio-backend.vercel.app/api/contacts')
           .then(response => {
               setContacts(response.data);
           })
@@ -21,10 +21,10 @@ const Home = () => {
   }, []);
   return (
   <div>
-            <h3>Hello, World!</h3>
+            <h3>Building the Future with Code & Culture</h3>
             <h1>Treneese Johnson</h1>
             <h1>And I am a </h1>
-            <p>Full-Slack Software Developer</p>
+            <p>Creative Technologist • Software Developer • Aspiring Cybersecurity Pro</p>
             <p>"Success is liking yourself, liking what you do, and liking how you do it.”- Maya Angelou</p>
             <img src='/profile.png'  alt='Profile' className="profile-image" />
             <ul>

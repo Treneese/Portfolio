@@ -2,24 +2,47 @@
 import React from 'react';
 import './About.css';
 
-function About(){
+    function About() {
+      return (
+        <div className="box">
+          <h1>About</h1>
+          <p>
+            "Treneese Johnson is evolution in motion — a creator led by vision, lit by purpose, and destined to build what the world hasn’t seen yet.”
+          </p>
+    
+          <h2>Who is Treneese Johnson?</h2>
+          <img src='/about.png' alt='Treneese' className="profile-image" />
+    
+          <p>
+        I’m Treneese — a creative technologist, software engineer, artist, and visionary. My story begins with a paintbrush and a notebook, and today it expands into immersive experiences, secure systems, and culturally rooted ventures. My life’s work lives at the intersection of code, creativity, and community.
+      </p>
 
-  return (
-    <div className="box">
-     <h1>About</h1>
-    <p>"My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style." -  Maya Angelou</p>
-    <h2>Who is Treneese Johnson?</h2>
-    <img src='/about.png' alt='Treneese' className="profile-image"/>
+      <p>
+        I began drawing in middle school as a way to process the world, and it quickly bloomed into a deep love for painting. At Clark Atlanta University, where I earned my B.A. in Mass Media Art, I explored filmmaking, screenwriting, and storytelling — all as tools to give voice to the worlds in my mind.
+      </p>
 
-    <p>My passion for creating began at a young age. I started drawing in middle school as an escape and soon realized I had a natural talent for it. In high school, this escape evolved into a passion for painting, which felt as natural to me as speaking a new language.</p>
-    <p>At Clark Atlanta University, where I completed my B.A. in Mass Media Art, I continued to nurture my love for painting while also developing a passion for filmmaking and screenwriting. The ability to create and recreate worlds and share the visions in my mind felt magical.</p> 
-    <p>While I still hold on to my love for painting and filmmaking, I've also discovered a passion for coding. To me, coding is about creating digital worlds. Becoming a Software Engineer was a smooth transition because creating is who I am, and that's what Software Engineering is all about. In a way, I've transitioned from the least technical form of creating to the most technical.</p>
-    <p>At Flatiron School, I stepped into the world of Full-Stack Software Engineering, learning JavaScript, React, Python, Flask, CSS, HTML, and more. I have completed several projects, both solo and in groups, to showcase my talent and my ability to work independently and collaboratively.</p>
-    <p>In addition to my technical skills, I am known for my worldly personality, exceptional communication, detail-oriented approach, and self-motivation. I am dedicated to creating software that improves the art community and media landscape, and I aspire to work at a company that values creativity, diversity, and the intersection of technology and art.
+      <p>
+        I expanded that vision into technology after completing college. I completed a full-stack engineering program at Flatiron School where I learned JavaScript, React, Python, Flask, CSS, and more. My passion for coding is rooted in the same instinct as my painting — to create, to empower, and to make things that matter.
+      </p>
 
-</p>
-<p>In my free time, I love to spend time with my family, paint, write screenplays/films, and enjoy picnics. Fun facts: my favorite color is purple and sunflowers are my favorite flower. Most flowers need a bouquet to stand out, but sunflowers are bold alone. They shine brightly like the sun, evoke warmth, and remind me of summer.</p>
-      </div>
-  );
-}
-export default About;
+      <p>
+        I founded and am building <strong>DOKO Battlefield</strong>, a tech-powered combat sports experience rooted in wearables, worldbuilding, and belonging. I’m also creating <strong>Naqi</strong>, a rhythm-based VR combat game, and <strong>ELOS Museum</strong>, a modern art experience built around emotion, play, and identity.
+      </p>
+
+      <p>
+        As I continue building, I’m also studying cybersecurity — because I believe innovation and safety must go hand in hand. The future needs systems that are both expressive and secure, both imaginative and protected.
+      </p>
+
+      <p>
+        What makes me unique is the way I blend deep creativity with technical execution, bold imagination with real-world planning, and a heart rooted in clarity and purpose. Whether I’m leading a project or joining a team, I bring vision, precision, and relentless drive.
+      </p>
+    
+          <p>
+            Outside of tech, I love painting, writing screenplays, spending time with my children, and going on picnics. My favorite color is purple, and I love sunflowers — because they don’t need a bouquet to be bold. They shine on their own, and so do I.
+          </p>
+        </div>
+      );
+    }
+    
+    export default About;
+    

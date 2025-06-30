@@ -10,7 +10,7 @@ function ProjectList ()  {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        axios.get('//3.14.145.75:8080/api/projects')
+        axios.get('https://treneese-engineer-portfolio-backend.vercel.app/api/projects')
             .then(response => {
                 setProjects(response.data);
             })

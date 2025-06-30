@@ -10,7 +10,7 @@ function Skills() {
   const [educations, setEducations] = useState([]);
 
   useEffect(() => {
-    axios.get('//3.14.145.75:8080/api/education')
+    axios.get('https://treneese-engineer-portfolio-backend.vercel.app/api/education')
         .then(response => {
           setEducations(response.data);
         })

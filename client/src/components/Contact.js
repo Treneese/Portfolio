@@ -10,7 +10,7 @@ const ContactList = () => {
     const [contacts, setContacts] = useState([]);
 
     useEffect(() => {
-        axios.get('http://3.14.145.75:8080/api/contacts')
+        axios.get('https://treneese-engineer-portfolio-backend.vercel.app/api/contacts')
             .then(response => {
                 setContacts(response.data);
             })

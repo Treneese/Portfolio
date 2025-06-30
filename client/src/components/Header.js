@@ -4,7 +4,6 @@ import './Header.css';
 function Header() {
   return (
     <header>
-      <h1>Header</h1>
       <nav>
         <ul className='menu'>
           <li className='menu-item'><Link to="/">Home</Link></li>

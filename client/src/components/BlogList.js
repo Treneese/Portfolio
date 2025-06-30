@@ -10,7 +10,7 @@ function BlogList() {
 
 
 useEffect(() => {
-  axios.get('//3.14.145.75:8080/api/blogs')
+  axios.get('https://treneese-engineer-portfolio-backend.vercel.app/api/blogs')
       .then(response => {
         setBlogs(response.data);
       })
