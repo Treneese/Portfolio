@@ -70,7 +70,7 @@ Project(
     title='DOKO Check-In Kiosk',
     description='A custom tablet kiosk for user check-in at DOKO Battlefield, built with React and Flask.',
     technologies='React, Flask, CSS, Vercel',
-    demo='N/A', 
+    demo='https://doko-tablet.vercel.app/', 
     github='https://github.com/DOKO-Battlefield/DOKO_Battlefield', 
     image='/DOKO_Kiosk.png'
 ),
