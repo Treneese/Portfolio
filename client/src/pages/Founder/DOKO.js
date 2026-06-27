@@ -8,7 +8,7 @@ import Grid from "../../components/Grid";
 import CategoryCard from "../../components/CategoryCard";
 import Button from "../../components/Button";
 import InfoModal from "../../components/InfoModal";
-import VideoPlayer from "../../components/VideoPlayer";
+
 import CarouselModal from "../../components/CarouselModal";
 
 function Doko() {

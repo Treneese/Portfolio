@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import PageHero from "../../components/PageHero";
 import Container from "../../components/Container";
 import Section from "../../components/Section";
-import CategoryCard from "../../components/CategoryCard";
+
 import SectionTitle from "../../components//SectionTitle";
 import MediaGallery from "../../components//MediaGallery";
 
