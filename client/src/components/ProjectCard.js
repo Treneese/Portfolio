@@ -1,22 +1,63 @@
-// src/components/ProjectCard.js
+import "../styles/Components.css";
+import { Link } from "react-router-dom";
 
-import React from 'react';
-import './ProjectCard.css';
+function ProjectCard({
+    image,
+    category,
+    title,
+    description,
+    tech = [],
+    to
+}) {
 
-const ProjectCard = ({ project }) => {
     return (
-        <div className="card">
-            <h3>{project.title}</h3>
-            <p>{project.about}</p>
-            <p>{project.description}</p>
-            <p>{project.technologies}</p>
-            <p>{project.features}</p>
-            <p>{project.challenges}</p>
-            <a href={project.demo}>Demo</a>
-            <a href={project.github}>GitHub</a>
-            <img src={project.image} alt={project.title} />
-        </div>
+
+        <Link
+            to={to}
+            className="project-card"
+        >
+
+            <div className="project-card__image">
+
+                <img
+                    src={image}
+                    alt={title}
+                />
+
+            </div>
+
+            <div className="project-card__content">
+
+                <p className="project-card__category">
+                    {category}
+                </p>
+
+                <h3>
+                    {title}
+                </h3>
+
+                <p className="project-card__description">
+                    {description}
+                </p>
+
+                <div className="project-card__tech">
+
+                    {tech.map(item => (
+
+                        <span key={item}>
+                            {item}
+                        </span>
+
+                    ))}
+
+                </div>
+
+            </div>
+
+        </Link>
+
     );
-};
+
+}
 
 export default ProjectCard;

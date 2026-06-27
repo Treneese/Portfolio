@@ -1,0 +1,78 @@
+.section-page {
+  min-height: 100vh;
+  background: #050505;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.section-hero {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.section-hero h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+  margin: 0;
+  line-height: 0.95;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: #cfcfcf;
+  margin: 1.5rem 0 4rem;
+}
+
+.section-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.option-card {
+  border: 1px solid #333;
+  padding: 2rem;
+  min-height: 240px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.25s ease;
+}
+
+.option-card:hover {
+  border-color: white;
+  transform: translateY(-4px);
+}
+
+.option-card span {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.option-card h2 {
+  font-size: 2rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.option-card p {
+  color: #aaa;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .section-options {
+    grid-template-columns: 1fr;
+  }
+}

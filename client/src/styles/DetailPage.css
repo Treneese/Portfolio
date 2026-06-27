@@ -1,0 +1,280 @@
+.detail-page {
+  min-height: 100vh;
+  background: #050505;
+  color: white;
+  padding: 6rem 2rem;
+}
+
+.detail-hero {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.detail-hero h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+  margin: 0;
+}
+
+.detail-hero p {
+  color: #cfcfcf;
+  font-size: 1.2rem;
+  max-width: 650px;
+}
+
+.detail-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.detail-buttons a {
+  border: 1px solid #333;
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.detail-buttons a:hover {
+  border-color: white;
+}
+.project-grid {
+  max-width: 1100px;
+  margin: 4rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid #333;
+  padding: 2rem;
+  min-height: 300px;
+}
+
+.project-label {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.project-card h2 {
+  font-size: 2rem;
+  color: #bb00ff;
+  margin: 1rem 0;
+}
+
+.project-card p {
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.project-card ul {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  color: #aaa;
+  line-height: 1.8;
+}
+
+@media (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.feature-block {
+  max-width: 1100px;
+  margin: 5rem auto 0;
+  border-top: 1px solid #333;
+  padding-top: 2rem;
+}
+
+.feature-block h2 {
+  color: #b700ff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-block p {
+  color: #cfcfcf;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+.stat-row,
+.timeline-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stat-row span,
+.timeline-row span {
+  border: 1px solid #333;
+  padding: 1rem 1.25rem;
+  color: #cfcfcf;
+}
+.art-carousel {
+  max-width: 1100px;
+  margin: 4rem auto 1rem;
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-image-wrap {
+  width: 100%;
+  height: 460px;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.carousel-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-button {
+  height: 60px;
+  width: 60px;
+  border: 1px solid #333;
+  background: transparent;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  border-color: #d000ff;
+  color: #d400ff;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1rem 0 4rem;
+}
+
+.dot {
+  width: 30px;
+  height: 4px;
+  border: none;
+  background: #333;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #d900ff;
+}
+
+.gallery-grid {
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gallery-card {
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-card div {
+  padding: 1rem;
+}
+
+.gallery-card h2 {
+  color: #dd00ff;
+  margin: 0 0 0.25rem;
+}
+
+.gallery-card p {
+  color: #aaa;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .art-carousel {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-button {
+    width: 100%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.film-hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.film-copy h1 {
+  color: #d400ff;
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.95;
+  margin: 1rem 0;
+}
+
+.film-copy p {
+  color: #cfcfcf;
+  font-size: 1.2rem;
+}
+
+.theater-frame {
+  border: 1px solid #333;
+  background: #111;
+  padding: 1rem;
+  box-shadow: 0 0 80px rgba(244, 255, 0, 0.08);
+}
+
+.theater-frame iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .film-hero {
+    grid-template-columns: 1fr;
+  }
+}
+.zanura-page .detail-hero h1,
+.zanura-page .feature-block h2,
+.zanura-page .project-card h2 {
+  color: #ffffff;
+}
+
+.trailer-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #333;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}

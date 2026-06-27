@@ -1,0 +1,39 @@
+   /* src/App.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  h1, h2, h3 {
+    color: #b103f1;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+ html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.site-shell {
+  width: min(100%, 1600px);
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #050505;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}

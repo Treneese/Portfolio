@@ -1,0 +1,67 @@
+.navbar {
+  width: 100%;
+  padding: 28px 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #050505;
+  border-bottom: 1px solid #1f1f1f;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar__logo {
+    width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+
+  color: #b347ff;
+  border: 1px solid rgba(179, 71, 255, 0.45);
+  border-radius: 10px;
+  background: rgba(179, 71, 255, 0.04);
+
+}
+.navbar__logo:hover{
+    border-color:#b347ff;
+    box-shadow:0 0 18px rgba(179,71,255,.18);
+}
+
+.navbar__links {
+  display: flex;
+  gap: 48px;
+letter-spacing: .02em;
+font-weight:500;
+}
+
+.navbar__links a {
+  color: #d7d7d7;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.navbar__links a:hover,
+.navbar__links a.active {
+  color: #b347ff;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .navbar__links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+}
