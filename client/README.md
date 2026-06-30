@@ -1,70 +1,155 @@
-# Getting Started with Create React App
+# Treneese Johnson Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **Software Engineer • Founder • Artist**
 
-## Available Scripts
+A modern portfolio showcasing my work as a software engineer, entrepreneur, and creative. This website highlights the systems, products, and experiences I am building across software engineering, embedded systems, AI, and immersive technology.
 
-In the project directory, you can run:
+**Live Website:** https://treneese-engineer-portfolio.vercel.app
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This portfolio serves as the central hub for my professional work, bringing together engineering projects, startup ventures, and creative work into one experience.
 
-### `npm test`
+Visitors can explore my software projects, learn about DOKO Battlefield and D'AMS, view my artwork and films, and connect with me professionally.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Featured Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## DOKO Battlefield
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+An immersive sports platform combining software, AI, IoT, and wearable technology to create the next generation of athletic experiences.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## D'AMS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The DOKO Adaptive Motion System (D'AMS) is a wearable telemetry platform designed to monitor athlete movement and support future safety and performance analytics.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Muslim Center
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A community management platform featuring event management, prayer times, donations, announcements, and administrative tools.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Creative Portfolio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A collection of original artwork, filmmaking projects, screenwriting, and world-building, including the development of *Zanura*.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Website Sections
 
-### Analyzing the Bundle Size
+- Home
+- Engineer
+- Founder
+- Artist
+- About
+- Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Responsive design
+- Modern UI/UX
+- Project showcase
+- Interactive navigation
+- Engineering portfolio
+- Startup portfolio
+- Creative portfolio
+- Contact information
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Technology Stack
+
+### Frontend
+
+- React
+- JavaScript
+- HTML5
+- CSS3
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Vercel
 
-### `npm run build` fails to minify
+### Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Git
+- GitHub
+
+---
+
+# Project Structure
+
+```text
+portfolio/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── styles/
+│   └── App.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+# Design Philosophy
+
+The portfolio was designed to reflect both my technical and creative background.
+
+Rather than separating engineering and creative work, the site presents them together to demonstrate how technology, design, storytelling, and entrepreneurship influence one another throughout my projects.
+
+---
+
+# Current Status
+
+Active Development
+
+The portfolio continues to evolve as new software projects, products, and creative work are released.
+
+---
+
+# Future Plans
+
+- Project case studies
+- Interactive architecture diagrams
+- Live demos
+- Technical blogs
+- Expanded DOKO showcase
+- Expanded D'AMS documentation
+- Zanura production updates
+- Media gallery enhancements
+
+---
+
+# Connect
+
+**Portfolio**  
+https://treneese-engineer-portfolio.vercel.app
+
+**LinkedIn**  
+https://www.linkedin.com/in/treneese-johnson-b55b3926a/
+
+**GitHub**  
+https://github.com/Treneese
+
+---
+
+## Author
+
+**Treneese Johnson**
+
+Software Engineer specializing in full-stack development, embedded systems, AI, IoT, and immersive technology. Founder of DOKO Battlefield and creator of D'AMS, with a passion for building systems that bring together technology, community, and creativity.
